@@ -1,11 +1,3 @@
-// BACK END
-
-// if (inputFrontBack === "front-end" && inputColor === "red" && inputVacation === "osaka" && inputMusic === "1995" && inputRather === "geology") {
-//   $('#ruby').show();
-//   $('#python, #c, #no-match').hide();
-// }
-
-
 // FRONT END
 
 $(document).ready(function() {
@@ -14,7 +6,9 @@ $(document).ready(function() {
     var inputColor = $("input:radio[name=color]:checked").val();
     var inputVacation = $("input:radio[name=vacation]:checked").val();
     var inputMusic = $("input:radio[name=music]:checked").val();
-    var inputRather= $("input:radio[name=rather].checked").val();
+    var inputRather= $("input:radio[name=rather]:checked").val();
+
+// BACK END
 
     if (inputFrontBack === "front-end" && inputColor === "red" && inputVacation === "osaka" && inputMusic === "1995" && inputRather === "geology") {
       $('#ruby').show();
