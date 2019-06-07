@@ -17,7 +17,7 @@
       <p>We will ask you a few simple questions and determine which coding language matches your interests, preferences, and goals.</p>
       <form id="survey">
 
-        <!-- First question -->
+        <!-- First question FRONT END OR BACK END -->
 
         <label for="front-back">Do you prefer front end or back end development?</label>
         <div class="radio">
@@ -39,9 +39,9 @@
           </label>
         </div><br>
 
-        <!-- Second question -->
+        <!-- Second question COLOR -->
 
-        <label for="vacation">What is your favorite color?</label>
+        <label for="color">What is your favorite color?</label>
         <div class="radio">
           <label>
             <input type="radio" name="color" value="red">
@@ -61,7 +61,7 @@
           </label>
         </div><br>
 
-        <!-- Third question -->
+        <!-- Third question VACATION -->
 
         <label for="vacation">Where would you rather go on vacation?</label>
         <div class="radio">
@@ -83,7 +83,7 @@
           </label>
         </div><br>
 
-        <!-- Fourth question -->
+        <!-- Fourth question MUSIC -->
 
         <label for="music">Which year had the best music?</label>
         <div class="radio">
@@ -105,29 +105,35 @@
           </label>
         </div><br>
 
-        <!-- Fifth question -->
+        <!-- Fifth question BOOKS -->
 
-        <label for="front-back">Do you prefer front end or back end development?</label>
+        <label for="rather">Which book sounds more interesting to you?</label>
         <div class="radio">
           <label>
-            <input type="radio" name="front-back" value="front-end">
-            Front end
+            <input type="radio" name="rather" value="geology">
+            A book about geology
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="front-back" value="back-end">
-          Back end
+          <input type="radio" name="rather" value="reptiles">
+          A book about reptiles
           </label>
         </div>
         <div class="radio">
           <label>
-          <input type="radio" name="front-back" value="dont-care">
-          Don't care
+          <input type="radio" name="rather" value="composer">
+          A book about a famous composer
           </label>
         </div><br>
         <button type="submit" class="btn">Submit</button>
       </form>
+    </div>
+    <div>
+      <h1 id="ruby">You should learn RUBY!</h1>
+      <h1 id="python">You should learn PYTHON!</h1>
+      <h1 id="c">You should learn C#!</h1>
+      <h1 id="no-match">Ruby, Python and C# don't really seem to be your thing. Try JavaScript, Go, or Swift!</h1>
     </div>
   </body>
 </html>
